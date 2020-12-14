@@ -8,17 +8,6 @@ import SEO from '../components/SEO'
 
 const Layout = loadable(() => import('../components/layout'))
 
-const MainTitle = styled.h1`
-  line-height: 1.5;
-  text-align: center;
-  font-size: 3rem;
-`
-
-const Icon = styled.div`
-  width: 150px;
-  margin: 0 auto;
-`
-
 const Text = styled.p`
   text-align: center;
 `
@@ -31,10 +20,6 @@ const Information = ({ location }) => (
             title='Information'
         />
         <Wrapper>
-            {/* <MainTitle>404 Page Not Found</MainTitle>
-            <Icon>
-                <img src={withPrefix('/images/ufo-and-cow.svg')} alt='ufo and cow' />
-            </Icon> */}
             <Text>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non tincidunt augue. Ut varius tortor ex, in molestie nisi pretium id. Ut vulputate vitae quam et congue. Fusce convallis, magna eu consectetur congue, eros orci tristique magna, ut convallis sapien mi vel dolor. Phasellus tincidunt est at nisl feugiat ultricies. Maecenas ullamcorper elementum ante sit amet dignissim. Aliquam ultricies elementum vehicula. Integer et dignissim lorem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur ex massa, blandit aliquet iaculis at, rhoncus eget augue. Aliquam at placerat purus, eu mollis est. Integer fermentum turpis mauris, non venenatis arcu tincidunt interdum.
 

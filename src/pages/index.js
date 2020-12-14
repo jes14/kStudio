@@ -1,26 +1,11 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Container, Row, Col } from 'react-awesome-styled-grid'
 import siteConfig from '../../data/siteConfig'
 import loadable from '@loadable/component'
-
-import Hero from '../components/hero'
 import SEO from '../components/SEO'
-import Wrapper from '../components/wrapper'
-import About from '../components/about'
-import Repositories from '../components/repositories'
-
 const Layout = loadable(() => import('../components/layout'))
 
-const Separator = styled.hr`
-  margin-top: 24px;
-  margin-bottom: 16px;
-  background-color: ${({ theme }) => theme.colors.fontColor};
-  opacity: .2;
-`
-
-const Home = ({ className, location }) => {
-  const title = siteConfig.siteTitle
+const Home = ({ location }) => {
   const upperTitle = siteConfig.upperTitle
   const { keywords } = siteConfig
   return (
@@ -29,15 +14,9 @@ const Home = ({ className, location }) => {
         title={upperTitle}
         keywords={keywords}
       />
-
-      {/* <Hero
-        heroImg={siteConfig.siteCover}
-        title={title}
-      /> */}
       <img src='/images/sample1.jpg'/>
       <img src='/images/sample2.jpg'/>
-      <img src='/images/sample3.jpg'/>
-     
+      <img src='/images/sample3.jpg'/>  
     </Layout>
   )
 }
