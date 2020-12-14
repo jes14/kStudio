@@ -1,9 +1,9 @@
 module.exports = {
-  upperTitle: 'Kookki studio',
+  upperTitle: 'KK studio',
   siteTitle: '',
   siteDescription: `Create your online curriculum in just a few minutes with this starter`,
   keyWords: ['gatsbyjs', 'react', 'curriculum'],
-  authorName: 'Kookki studio',
+  authorName: 'KK studio',
   twitterUsername: 'J001072',
   githubUsername: 'jes14',
   authorAvatar: '/images/avatar.jpeg',
@@ -25,7 +25,7 @@ module.exports = {
   icon: 'src/assets/gatsby-icon.png',
   headerLinks: [
     {
-      label: 'Kookki studio',
+      label: 'KK studio',
       url: '/',
     },
     {
