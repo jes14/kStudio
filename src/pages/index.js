@@ -14,9 +14,11 @@ const Home = ({ location }) => {
         title={upperTitle}
         keywords={keywords}
       />
+      <div>
       <img src='/images/sample1.jpg'/>
       <img src='/images/sample2.jpg'/>
       <img src='/images/sample3.jpg'/>  
+      </div>
     </Layout>
   )
 }
